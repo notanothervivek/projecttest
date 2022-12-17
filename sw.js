@@ -16,9 +16,9 @@ const assets = [
 */
 
 const assets = [
-  '/project/',
-  '/project/index.html',
-  '/project/pages/fallback.html',
+  '/projecttest/',
+  '/projecttest/index.html',
+  '/projecttest/pages/fallback.html',
 ]
 
 const staticCacheName = 'site-static-v1';
@@ -75,7 +75,7 @@ self.addEventListener('fetch', evt => {
         });
       }).catch(() => {
         if(evt.request.url.indexOf('.html') > -1){
-          return caches.match('/project/pages/fallback.html');
+          return caches.match('/projecttest/pages/fallback.html');
         } 
       })
     );
