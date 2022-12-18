@@ -1,0 +1,6 @@
+[{
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target" : { "namespace": "android_app", "package_name": "io.github.notanothervivek.twatwo",
+                     "sha256_cert_fingerprints": ["75:CB:04:75:AC:7F:66:90:3D:79:6B:EA:70:0B:D0:A2:01:B5:FA:4F:2E:C9:3E:C7:5F:B2:AF:C3:A4:CE:95:80"] }
+      }
+]
